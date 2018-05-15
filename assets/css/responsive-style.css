@@ -17,33 +17,25 @@ body {
 header {
     display: inline-block;
     width: 100%;
-    /* min-width: 1000px; */
-    /* display: flex; */
     margin-bottom: 40px;
     background-color: #ffffff;
     border-bottom: 2.5px solid #cccccc;
 }
 
 .head-content {
-    /* margin: auto; */
     float: left;
-    /* justify-content: space-between; */
-    /* min-width: 960px; */
     height: 90px;
 }
 
 .main-content {
-    /* margin: auto; */
     padding: 30px;
     margin-bottom: 40px;
-    /* max-width: 960px; */
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
 
 .name {
     float: left;
-    /* display: flex; */
     height: 88.5px;
     width: 290px;
     background-color: #4aaaa5;
@@ -250,24 +242,6 @@ textarea {
 /*END ASSIGNMENT 01*/
 /*BEGIN ASSIGNMENT 02 PT.2: */
 
-/* @media (min-width: 981px) {
-
-    .main-content {
-        width: 960px;
-        margin-left: 55px;
-    }
-
-    .head-content {
-        margin-left: 55px;
-        width: 1070px;
-    }
-
-    nav {
-        margin-left: 450px;
-    }
-
-} */
-
 @media screen, (max-width: 980px) and (min-width: 980px) {
 
     .main-content {
@@ -305,7 +279,6 @@ textarea {
     }
 }
 
-
 @media (max-width: 640px) {
 
     header {
@@ -324,12 +297,9 @@ textarea {
         width: 575px;
         margin-left: 0;
         display: block;
-        /* flex-direction: column;
-        flex-wrap: wrap; */
     }
 
     .name {
-        /* float: left; */
         width: 99.5%;
         margin: 0;
         display: flex;
@@ -368,4 +338,5 @@ textarea {
     }
 }
 
+/* END ASSIGNMENT 02 */
 
