@@ -2,11 +2,11 @@ console.log('CONNECTED TO SCRIPT');
 
 //GALLERY POP EFFECT:
 
-$('.img-overlay').on('mouseover', function(){
+$('.img-container h3').on('mouseover', function(){
     this.classList.add('pop-effect');
 });
 
-$('.img-overlay').on('mouseout', function(){
+$('.img-container h3').on('mouseout', function(){
     this.classList.remove('pop-effect');
 });
 
