@@ -3,5 +3,5 @@
 # NOTES
 
 * clean up CSS
-* new display pic
 * review instructions
+* ask TA about responsive nav (why always off-screen?)
