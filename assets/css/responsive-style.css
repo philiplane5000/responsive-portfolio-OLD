@@ -31,7 +31,7 @@ header {
 }
 
 .main-content {
-    padding: 30px;
+    padding: 25px;
     margin-top: 130px;
     margin-bottom: 40px;
     background-color: #ffffff;
@@ -41,7 +41,7 @@ header {
 .name {
     float: left;
     height: 88.5px;
-    width: 290px;
+    width: 315px;
     background-color: #4aaaa5;
 }
 
@@ -62,12 +62,12 @@ hr {
     height: 2.5px;
     border: 0.5px solid #dddddd;
     background-color: #dddddd;
-    margin: 25px 0;
+    margin: 25px 0 40px 0;
 }
 
 h1 {
     color: #ffffff;
-    font-size: 2.8em;
+    font-size: 3.2em;
     margin: auto;
     line-height: 100%;
     font-weight: 600;
@@ -84,7 +84,6 @@ h2 {
 
 nav {
     float: left;
-    width: 275px;
     height: 75px;
     background-color: #ffffff;
 }
@@ -99,7 +98,7 @@ nav ul li {
     display: flex;
     width: 85px;
     font-size: 1.8em;
-    border-right: 1px solid rgba(0,0,0,0.15);
+    border-right: 1.25px solid rgba(0,0,0,0.15);
 }
 
 nav ul li:last-child {
@@ -148,7 +147,7 @@ nav a:active {
 }
 
 .margin-top { /* responsive using jquery */
-    margin-top: 75px;
+    margin-top: 65px;
 }
 
 /*ABOUT-ME PAGE: */
@@ -195,7 +194,7 @@ nav a:active {
     transform: translateY(calc(-150%));
     text-align: center;
     background-color:rgb(74, 170, 165);
-    font-size: 2em;
+    font-size: 2.2em;
     color: #fff;
     opacity: 0.65;
     z-index: 1;
@@ -289,19 +288,22 @@ textarea {
 }
 
 @media (max-width: 640px) {
+    html {
+        font-size: 8.5px;
+        min-width: 575px;
+    }
 
     header {
         position: static;
         display: block;
         height: 155px;
-        width: 100%;
+        border-bottom: none;
+        min-width: 575px;
     }
 
     .main-content {
         width: 535px;
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 40px 20px 0 20px;
     }
 
     .head-content {
@@ -311,24 +313,27 @@ textarea {
     }
 
     .name {
-        width: 99.5%;
+        width: 100%;
         margin: 0;
         display: flex;
     }
 
     .name h1 {
         margin: auto;
-        transform: translate(-30%, -5%);
+        transform: translate(-40%, -5%);
     }
 
     nav {
+        margin: 0;
         display: flex;
+        justify-content: space-around;
         height: 62.5px;
+        width: 100%;
+        border-bottom: 2px solid #cccccc;
     }
 
     nav ul {
-        margin: auto;
-        transform: translate(-5%, 0);
+        transform: translate(-25%, 0);
     }
 
     nav ul li {
@@ -340,8 +345,12 @@ textarea {
     }
 
     nav a:hover, nav a:focus {
-        letter-spacing: 1.250px;
-        font-size: 2.25rem;
+        letter-spacing: 1px;
+        font-size: 1.4em;
+    }
+
+    nav a:active {
+        border-bottom: 2.5px solid #DD524A;
     }
 
     #profilePic {
@@ -357,10 +366,19 @@ textarea {
         max-width: 100%;
     }
 
+    .img-container h3:hover, .img-container h3:focus {
+        opacity: 1;
+        letter-spacing: none;
+        font-size: 2.2em;
+    }
+
 }
 
 @media (min-width: 1824px) {
-    
+    html {
+        font-size: 10.5px;
+    }
+
     .main-content {
         width: 960px;
         margin-left: 55px;

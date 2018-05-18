@@ -2,7 +2,10 @@
 
 # NOTES
 
-* clean up CSS
-* review instructions
-* ask TA about responsive nav (why always off-screen?)
-* a stylesheet or framework for fixing mobile responsive problems (eg footer)
+* Added responsive media queries.
+* Implemented responsive:
+    - font-sizes
+    - portfolio images
+* Additional media-query added for large screens (1824px)
+
+
