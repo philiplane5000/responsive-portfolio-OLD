@@ -1,3 +1,7 @@
+# NOT CURRENT - <a href="https://github.com/philiptd5000/my-portfolio">CLICK HERE</a> FOR UPDATED PORTFOLIO PAGE //
+
+<hr>
+
 # Responsive-Portfolio
 
 # NOTES
