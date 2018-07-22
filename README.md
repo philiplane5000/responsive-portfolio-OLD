@@ -1,10 +1,10 @@
-# NOT CURRENT - <a href="https://github.com/philiptd5000/my-portfolio">CLICK HERE</a> FOR UPDATED PORTFOLIO PAGE //
+### NOT CURRENT - <a href="https://github.com/philiptd5000/my-portfolio">CLICK HERE</a> FOR UPDATED PORTFOLIO PAGE //
 
 <hr>
 
-# Responsive-Portfolio
+### Responsive-Portfolio
 
-# NOTES
+#### NOTES
 
 * Added responsive media queries.
 * Implemented responsive:
